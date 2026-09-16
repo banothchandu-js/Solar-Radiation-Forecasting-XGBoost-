@@ -1,0 +1,50 @@
+✅ Dataset Loaded Successfully!
+
+Columns in dataset:
+ Index(['year', 'month', 'day', 'hour', 'generation', 'temp', 'humidity',
+       'windspeed', 'sealevelpressure', 'cloudcover', 'solarradiation',
+       'solarenergy', 'conditions'],
+      dtype='str')
+
+✅ Selected Columns:
+ ['temp', 'humidity', 'windspeed', 'sealevelpressure', 'cloudcover', 'solarradiation']
+
+✅ Missing values removed!
+Remaining rows: 8976
+
+===== STATISTICAL RESULTS =====
+
+🔹 Minimum Values:
+ temp                -13.90
+humidity             22.17
+windspeed             0.00
+sealevelpressure    989.00
+cloudcover            0.00
+solarradiation        0.00
+dtype: float64
+
+🔹 Maximum Values:
+ temp                  33.9
+humidity             100.0
+windspeed             40.0
+sealevelpressure    1048.5
+cloudcover           100.0
+solarradiation       928.0
+dtype: float64
+
+🔹 Standard Deviation:
+ temp                  8.516553
+humidity             17.886761
+windspeed             5.581005
+sealevelpressure      8.176388
+cloudcover           32.243227
+solarradiation      221.933239
+dtype: float64
+
+✅ Model Training Completed!
+
+📊 MAE: 86.82495515849565
+📊 R² Score: 0.6461210210318913
+
+📊 RMSE: 133.93457645909933
+
